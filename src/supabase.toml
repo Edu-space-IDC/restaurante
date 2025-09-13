@@ -1,0 +1,25 @@
+# Configuración de Supabase - DESHABILITADO
+# Esta aplicación funciona completamente con IndexedDB local
+# No requiere Supabase para su funcionamiento
+
+[project]
+# Deshabilitamos la funcionalidad de Supabase
+disable = true
+
+[functions]
+# Deshabilitamos las edge functions
+enabled = false
+
+[edge_runtime]
+# Deshabilitamos el runtime de edge functions
+enabled = false
+
+# NOTA: Esta aplicación es completamente offline y usa:
+# - IndexedDB para almacenamiento local
+# - No necesita base de datos externa
+# - No requiere autenticación de servidor
+# - Funciona sin conexión a internet
+
+# Si en el futuro necesitas habilitar Supabase, cambia:
+# disable = false
+# enabled = true

@@ -1,0 +1,15 @@
+# Este archivo evita que Figma Make intente deployar edge functions de Supabase
+# Esta aplicación funciona completamente con IndexedDB local
+
+# Archivos y carpetas ignorados por Supabase
+supabase/
+*.edge.js
+*.edge.ts
+
+# Esta aplicación NO requiere:
+# - Edge functions
+# - Base de datos Supabase
+# - Autenticación de servidor
+# - Conexión a internet
+
+# Funciona 100% offline con IndexedDB
